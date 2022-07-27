@@ -28,7 +28,10 @@ body{
 .carousel-caption{
     z-index: 1;
 }
-
+/*OUR COURSE PART*/
+.banner_text h2{
+    color: #1D1D1D;
+}
 /*FOOTER PART*/
 footer{
     background-color: #161616;
