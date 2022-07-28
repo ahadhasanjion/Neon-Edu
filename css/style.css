@@ -16,6 +16,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 /*BANNER PART*/
+.carousel-item img{
+    width: 20/30vh;
+    height: 20vh/30vh;
+    object-fit: cover;
+}
 .carousel-item::after{
     content: '';
     background-color: rgba(0,0,0,0.6);
@@ -27,25 +32,4 @@ body{
 }
 .carousel-caption{
     z-index: 1;
-}
-/*OUR COURSE PART*/
-.banner_text h2{
-    color: #1D1D1D;
-}
-/*FOOTER PART*/
-footer{
-    background-color: #161616;
-}
-.social-media a{
-    transition: all linear .3s;
-    background-color: #242424;
-}
-footer .social-media a i{
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-}
-.social-media a:hover{
-    background-color: #5bc5f4;
-    border-color: #5bc5f4;
 }
